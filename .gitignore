@@ -1,0 +1,134 @@
+# ============================================
+# C++ объектные файлы и библиотеки
+# ============================================
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.la
+*.lai
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.d
+
+# ============================================
+# Qt-специфичные файлы (генерируются автоматически)
+# ============================================
+# MOC (Meta-Object Compiler)
+*.moc
+moc_*.cpp
+moc_*.h
+
+# UIC (User Interface Compiler)
+ui_*.h
+
+# RCC (Resource Compiler)
+qrc_*.cpp
+*_qmlcache.qrc
+
+# qmake кэш и настройки
+.qmake.cache
+.qmake.stash
+.qmake.vars
+.qmake.conf
+
+# Qt Creator user-файлы (личные настройки, не для репозитория)
+*.pro.user
+*.pro.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+*.qbs.user
+*.qbs.user.*
+CMakeLists.txt.user*
+*.creator.user*
+*.autosave
+
+# Qt-плагины и импорты
+*_plugin_import.cpp
+object_script.*.Release
+object_script.*.Debug
+
+# Переводы и ресурсы
+*.qm
+*.qmlc
+*.jsc
+*.qch
+*.qhc
+*.prl
+
+# ============================================
+# CMake (если используете CMake вместо qmake)
+# ============================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+CMakeUserPresets.json
+CMakePresets.json.user
+
+# ============================================
+# Папки сборки (build-директории)
+# ============================================
+build/
+build-*/
+debug/
+release/
+bin/
+obj/
+out/
+*build-*/
+
+# ============================================
+# Qt Unit Tests
+# ============================================
+target_wrapper.*
+*_wrapper.sh
+*_wrapper.bat
+
+# ============================================
+# Visual Studio
+# ============================================
+.vs/
+*.vcxproj.user
+*.vcproj.*.user
+*.sln.docstates
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+
+# ============================================
+# VS Code (опционально, если используете)
+# ============================================
+.vscode/
+
+# ============================================
+# Qt Creator локальные файлы
+# ============================================
+.qtc_clangd/
+*.files
+*.includes
+*.config
+*.creator
+*.cxxflags
+
+# ============================================
+# Прочие временные файлы
+# ============================================
+*~
+*.bak
+*.tmp
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
